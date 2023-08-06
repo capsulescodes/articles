@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src="capsules-articles-images.png" width="300px" height="200px" /></p>
+<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
 
 ## About Capsules Articles
 
