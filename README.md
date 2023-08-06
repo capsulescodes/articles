@@ -2,12 +2,15 @@
 
 <p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
 
-## About Capsules Articles
+
+## About
 
 Here are stored the framework projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
 Inviting readers to try out the articles content by themselves.
 
+
 ## Installation
+
 
 1. Clone the selected article repository on your local environment
 
@@ -29,6 +32,7 @@ mv articles/{article-name} ./{article-name}
 rm -rf articles
 ```
 
+
 2. Install dependencies
 
 ```bash
@@ -36,6 +40,7 @@ commposer install
 
 npm install
 ```
+
 
 3. Build and Try out
 
