@@ -45,7 +45,7 @@ npm install
 3. Build and Try out
 
 ```bash
-valet link {article-name}.test
+valet link {article-name}
 
 npm run dev
 ```
