@@ -27,9 +27,11 @@ mysql -u <username> -p <password> -e "CREATE DATABASE two"
 
 <br>
 
-3. Copy Environment and possibly change database credentials
+3. Copy Environment, generate app key and possibly add database credentials
 ```bash
 cp .env.example .env
+
+php artisan key:generate
 ```
 
 <br>
