@@ -5,7 +5,7 @@
 
 ## About
 
-How to use multiple databases in your laravel project.
+How to use several databases within your laravel project.
 
 
 ## Installation
