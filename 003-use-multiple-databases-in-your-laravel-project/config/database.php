@@ -35,6 +35,46 @@ return [
 
     'connections' => [
 
+        'one' => [
+            'driver' => 'mysql',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_ONE_HOST', '127.0.0.1'),
+            'port' => env('DB_ONE_PORT', '3306'),
+            'database' => env('DB_ONE_DATABASE', 'forge'),
+            'username' => env('DB_ONE_USERNAME', 'forge'),
+            'password' => env('DB_ONE_PASSWORD', ''),
+            'unix_socket' => env('DB_ONE_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => true,
+            'engine' => null,
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+        ],
+
+        'two' => [
+            'driver' => 'mysql',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_TWO_HOST', '127.0.0.1'),
+            'port' => env('DB_TWO_PORT', '3306'),
+            'database' => env('DB_TWO_DATABASE', 'forge'),
+            'username' => env('DB_TWO_USERNAME', 'forge'),
+            'password' => env('DB_TWO_PASSWORD', ''),
+            'unix_socket' => env('DB_TWO_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => true,
+            'engine' => null,
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+        ],
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
