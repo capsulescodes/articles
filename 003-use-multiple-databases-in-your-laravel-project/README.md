@@ -27,7 +27,14 @@ mysql -u <username> -p <password> -e "CREATE DATABASE two"
 
 <br>
 
-3. Launch migrations
+3. Copy Environment and possibly change database credentials
+```bash
+cp .env.example .env
+```
+
+<br>
+
+4. Launch migrations
 
 ```bash
 php artisan migrate
@@ -35,7 +42,7 @@ php artisan migrate
 
 <br>
 
-3. Link your project with Laravel Valet
+5. Link your project with Laravel Valet
 
 ```bash
 valet link article
@@ -43,4 +50,4 @@ valet link article
 
 <br>
 
-4. Visit your website : http://article.test
+6. Visit your website : http://article.test
