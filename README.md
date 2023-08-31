@@ -33,4 +33,7 @@ rm -rf articles
 
 <br>
 
-2. Read further instructions from the README file in the selected article directory
+2. Go to article repository and read further instructions from the article README file
+```bash
+cd {article-name}
+```
