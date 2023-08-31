@@ -11,7 +11,6 @@ Inviting readers to try out the articles content by themselves.
 
 ## Installation
 
-
 1. Clone the selected article repository on your local environment
 
 ```bash
@@ -32,20 +31,6 @@ mv articles/{article-name} ./{article-name}
 rm -rf articles
 ```
 
+<br>
 
-2. Install dependencies
-
-```bash
-commposer install
-
-npm install
-```
-
-
-3. Build and Try out
-
-```bash
-valet link {article-name}
-
-npm run dev
-```
+2. Read further instructions from the README file in the selected article directory
