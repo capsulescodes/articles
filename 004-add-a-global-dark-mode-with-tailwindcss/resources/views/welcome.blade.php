@@ -8,7 +8,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Capsules Codes - Set up a global dark mode quickly with TailwindCSS</title>
+        <title>{{ config( 'app.name' ) }}</title>
 
         @vite( 'resources/css/app.css' )
 
