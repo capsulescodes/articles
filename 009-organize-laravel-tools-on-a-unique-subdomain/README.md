@@ -33,7 +33,7 @@ php artisan key:generate
 3. Populate the database and publish assets
 
 ```bash
-mysql -u <username> -p <password> -e "CREATE DATABASE article"
+mysql -u <username> -p <password> -e "CREATE DATABASE tools"
 
 php artisan telescope:install
 
