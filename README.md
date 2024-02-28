@@ -1,39 +1,51 @@
 
 
-<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
+<p align="center"><img src="https://github.com/capsulescodes/articles/blob/main/capsules-articles-image.png" width="300px" height="200px" /></p>
 
 
 ## About
 
-Here are stored the framework projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
-Inviting readers to try out the articles content by themselves.
+Collect feedback via Slack notifications in your Laravel project.
 
 
 ## Installation
 
-1. Clone the selected article repository on your local environment
+1. Install dependencies
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/capsulescodes/articles.git
+commposer install
 
-cd articles
-
-git sparse-checkout set --no-cone {article-name}
-
-git fetch origin
-
-git checkout main
-
-cd ../
-
-mv articles/{article-name} ./{article-name}
-
-rm -rf articles
+npm install
 ```
 
 <br>
 
-2. Go to article repository and read further instructions from the article README file
+2. Create [Slack App](https://api.slack.com/apps?new_app=1) and add environment variable
+
 ```bash
-cd {article-name}
+cp .env.example .env
+
+php artisan key:generate
+
+LOG_SLACK_WEBHOOK_URL=https://hooks.slack.com/services/{your-webhook-key}
 ```
+
+<br>
+
+3. Link your project with Laravel Valet
+
+```bash
+valet link article
+```
+
+<br>
+
+4. Run development server script
+
+```bash
+npm run dev
+```
+
+<br>
+
+5. Visit your website : http://article.test
