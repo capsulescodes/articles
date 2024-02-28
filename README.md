@@ -5,7 +5,7 @@
 
 ## About
 
-How to add a global dark mode in your Laravel project with Tailwindcss.
+How to add a global dark mode in your Laravel project with Tailwind CSS.
 
 
 ## Installation
