@@ -1,0 +1,11 @@
+{
+    "$schema" : "https://codesandbox.io/schemas/tasks.json",
+    "setupTasks" : [
+        { "name" : "Install Node Dependencies", "command" : "npm install" },
+        { "name" : "Install PHP Dependencies", "command" : "npm run composer install -- --ignore-platform-reqs --no-scripts" },
+        { "name" : "Prepare Environment Variables", "command" : "cp .env.example .env && npm run php artisan key:generate" }
+    ],
+    "tasks" : {
+        "dev" : { "name" : "Start Dev and PHP Server", "command" : "npm run serve", "preview" : { "port" : 2222 }, "runAtStart": true }
+    }
+  }

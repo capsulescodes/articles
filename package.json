@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "php" : "php",
+        "serve" : "vite & serve",
+        "composer" : "php --disable-functions vendor/bin/composer"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "browser-php": "^0.3.0",
+        "laravel-vite-plugin": "^1.0.0",
+        "vite": "^5.0.0"
+    }
+}

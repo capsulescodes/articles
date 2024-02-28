@@ -1,39 +1,47 @@
 
 
-<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
+<p align="center"><img src="https://github.com/capsulescodes/articles/blob/main/capsules-articles-image.png" width="300px" height="200px" /></p>
 
 
 ## About
 
-Here are stored the framework projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
-Inviting readers to try out the articles content by themselves.
+Run Laravel on your Browser with Browser PHP.
 
+<br>
+<br>
+
+> Access the CodeSandbox project via this link : https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php
+
+<br>
 
 ## Installation
 
-1. Clone the selected article repository on your local environment
+1. Install dependencies
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/capsulescodes/articles.git
+npm install
 
-cd articles
-
-git sparse-checkout set --no-cone {article-name}
-
-git fetch origin
-
-git checkout main
-
-cd ../
-
-mv articles/{article-name} ./{article-name}
-
-rm -rf articles
+npm run composer install -- --ignore-platform-reqs --no-scripts
 ```
 
 <br>
 
-2. Go to article repository and read further instructions from the article README file
+2. Copy Environment and generate app key
+
 ```bash
-cd {article-name}
+cp .env.example .env
+
+npm run php artisan key:generate
 ```
+
+<br>
+
+3. Run development server script
+
+```bash
+npm run serve
+```
+
+<br>
+
+5. Visit your website : http://localhost:2222
