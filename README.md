@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src="https://github.com/capsulescodes/articles/blob/main/capsules-articles-image.png" width="300px" height="200px" /></p>
+<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
 
 
 ## About
@@ -11,7 +11,7 @@ Run Laravel on your Browser with [Browser PHP](https://github.com/capsulescodes/
 <br>
 
 > [!NOTE]
-> Access the CodeSandbox project via this link : [CodeSandbox Demo ](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo ](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
 
 <br>
 
