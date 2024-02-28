@@ -3,7 +3,7 @@
 
 ## About
 
-Run Laravel on your Browser with [Browser PHP](https://github.com/capsulescodes/browser-php).
+How to run Laravel on your Browser with [Browser PHP](https://github.com/capsulescodes/browser-php).
 
 <br>
 <br>
