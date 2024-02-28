@@ -1,39 +1,39 @@
 
 
-<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
+<p align="center"><img src="../capsules-articles-image.png" width="300px" height="200px" /></p>
 
 
 ## About
 
-Here are stored the framework projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
-Inviting readers to try out the articles content by themselves.
+How to make your own Artisan script example project.
 
 
 ## Installation
 
-1. Clone the selected article repository on your local environment
+1. Install dependencies
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/capsulescodes/articles.git
+commposer install
 
-cd articles
-
-git sparse-checkout set --no-cone {article-name}
-
-git fetch origin
-
-git checkout main
-
-cd ../
-
-mv articles/{article-name} ./{article-name}
-
-rm -rf articles
+npm install
 ```
 
 <br>
 
-2. Go to article repository and read further instructions from the article README file
+2. Try is-dead command
+
 ```bash
-cd {article-name}
+php is-dead inspire
+```
+
+
+<br>
+
+3. Try IsDead facade
+
+```bash
+php is-dead tinker
+```
+```php
+IsDead::call( 'inspire' );
 ```
