@@ -1,39 +1,46 @@
 
 
-<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
+<p align="center"><img src="https://github.com/capsulescodes/articles/blob/main/capsules-articles-image.png" width="300px" height="200px" /></p>
 
 
 ## About
 
-Here are stored the framework projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
-Inviting readers to try out the articles content by themselves.
+How to make a custom 502 Bad Gateway page example project.
 
 
 ## Installation
 
-1. Clone the selected article repository on your local environment
+1. Install dependencies
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/capsulescodes/articles.git
+commposer install
 
-cd articles
-
-git sparse-checkout set --no-cone {article-name}
-
-git fetch origin
-
-git checkout main
-
-cd ../
-
-mv articles/{article-name} ./{article-name}
-
-rm -rf articles
+npm install
 ```
 
 <br>
 
-2. Go to article repository and read further instructions from the article README file
+2. Modify Valet Configuration
+
 ```bash
-cd {article-name}
+error_page 502 /502.html;
+
+location = /502.html {
+    root /path/to/your/project/public/folder/where/the/file/is;
+    internal;
+}
+```
+
+- Valet config file path : `/opt/homebrew/etc/nginx/valet/valet.conf`.
+- Add these lines to the bottom of the server object.
+- This is only for testing purpose. Don't forget to remove these lines afterwards.
+
+<br>
+
+3. Stop PHP Service
+
+```bash
+valet restart
+
+brew services stop php@8.1
 ```
