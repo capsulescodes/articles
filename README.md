@@ -1,6 +1,4 @@
-
-
-<p align="center"><img src="capsules-articles-image.png" width="300px" height="200px" /></p>
+<p align="center"><img src="capsules-articles-image.svg" width="325px" height="250px" /></p>
 
 
 ## About
