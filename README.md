@@ -5,35 +5,44 @@
 
 ## About
 
-Here are stored the framework projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
+Here are stored the projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
 Inviting readers to try out the articles content by themselves.
 
+<br>
+
+## Articles
+
+- [ Make your own artisan ](https://github.com/capsulescodes/articles/tree/001-make-your-own-artisan)
+- [ Make a custom 502 page ](https://github.com/capsulescodes/articles/tree/002-make-a-custom-502-page)
+- [ Use several databases within your Laravel project ](https://github.com/capsulescodes/articles/tree/003-use-several-databases-within-your-laravel-project)
+- [ Add a global dark mode with Tailwind CSS ](https://github.com/capsulescodes/articles/tree/004-add-a-global-dark-mode-with-tailwindcss)
+- [ Display a modal using Vue Teleport component ](https://github.com/capsulescodes/articles/tree/005-display-a-modal-using-vue-teleport-component)
+- [ Build a Laravel blog using Vue and Canvas ](https://github.com/capsulescodes/articles/tree/006-build-a-laravel-blog-using-vue-and-canvas)
+- [ Modify tables and records with Laravel Population ](https://github.com/capsulescodes/articles/tree/007-modify-tables-and-records-with-laravel-population)
+- [ Create a Laravel package on your local environment ](https://github.com/capsulescodes/articles/tree/008-create-a-laravel-package-on-your-local-environment)
+- [ Organize Laravel tools on a unique subdomain ](https://github.com/capsulescodes/articles/tree/009-organize-laravel-tools-on-a-unique-subdomain)
+- [ Collect feedback via Slack notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/010-collect-feedback-via-slack-notifications-in-your-laravel-project)
+- [ Implement a translation system in your Laravel Vue project ](https://github.com/capsulescodes/articles/tree/011-implement-a-translation-system-in-your-laravel-vue-project)
+- [ Run Laravel on your browser with Browser PHP ](https://github.com/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
+
+<br>
 
 ## Installation
 
-1. Clone the selected article repository on your local environment
+1. Clone the repository
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/capsulescodes/articles.git
-
-cd articles
-
-git sparse-checkout set --no-cone {article-name}
-
-git fetch origin
-
-git checkout main
-
-cd ../
-
-mv articles/{article-name} ./{article-name}
-
-rm -rf articles
+git clone https://github.com/capsulescodes/articles.git
 ```
 
 <br>
 
-2. Go to article repository and read further instructions from the article README file
+2. Checkout the article related branch
+
 ```bash
-cd {article-name}
+git checkout {article-slug}
 ```
+
+<br>
+
+3. Follow the instructions in article related branch README file

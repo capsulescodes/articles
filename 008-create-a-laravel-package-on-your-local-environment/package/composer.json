@@ -1,7 +1,0 @@
-{
-    "name": "capsulescodes/package",
-    "description": "Capsules Codes Package",
-    "type": "library",
-    "autoload": { "psr-4" : { "CapsulesCodes\\Package\\" : "src/" } },
-    "extra" : { "laravel" : { "providers" : [ "CapsulesCodes\\Package\\Providers\\PackageServiceProvider" ] } }
-}
