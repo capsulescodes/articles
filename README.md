@@ -15,6 +15,14 @@ Run Laravel on your Browser with [Browser PHP](https://github.com/capsulescodes/
 
 ## Installation
 
+0. Checkout branch
+
+```bash
+git checkout 012-run-laravel-on-your-browser-with-browser-php
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
