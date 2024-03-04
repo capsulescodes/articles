@@ -1,0 +1,10 @@
+{
+    "$schema" : "https://codesandbox.io/schemas/tasks.json",
+    "setupTasks" : [
+        { "name" : "Install Node Dependencies", "command" : "npm install" },
+        { "name" : "Install PHP Dependencies", "command" : "npm run composer install -- --ignore-platform-reqs --no-scripts" }
+    ],
+    "tasks" : {
+        "dev" : { "name" : "Run Is-dead inspire command", "command" : "npm run php is-dead inspire", "runAtStart": true }
+    }
+  }
