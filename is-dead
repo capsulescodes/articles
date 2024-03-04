@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+umask(577);
+
 define('LARAVEL_START', microtime(true));
 
 /*
