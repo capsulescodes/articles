@@ -5,6 +5,15 @@
 
 How to make a custom 502 Bad Gateway page example project.
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/002-make-a-custom-502-page)
+>
+> To access custom 502 Bad Gateway page, go to /502.html
+
+<br>
 
 ## Installation
 
@@ -40,5 +49,5 @@ location = /502.html {
 ```bash
 valet restart
 
-brew services stop php@8.1
+brew services stop php@8.2
 ```
