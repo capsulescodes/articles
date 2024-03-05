@@ -4,7 +4,7 @@
         { "name" : "Install Node Dependencies", "command" : "npm install" },
         { "name" : "Install PHP Dependencies", "command" : "npm run composer install -- --ignore-platform-reqs --no-scripts" },
         { "name" : "Prepare Environment Variables", "command" : "cp .env.example .env && npm run php artisan key:generate" },
-        { "name" : "Change APP_URL Environment Variable", "command" : "php -r \"file_put_contents( '.env', preg_replace( '/APP_URL=(.*)/', 'APP_URL=https://localhost:2222/502.html', file_get_contents( '.env' ) ) );\"" }
+        { "name" : "Change APP_URL Environment Variable", "command" : "npm run php -r \"file_put_contents( '.env', preg_replace( '/APP_URL=(.*)/', 'APP_URL=https://localhost:2222/502.html', file_get_contents( '.env' ) ) );\"" }
     ],
     "tasks" : {
         "dev" : { "name" : "Start Dev and PHP Server", "command" : "npm run serve", "preview" : { "port" : 2222 }, "runAtStart": true }
