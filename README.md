@@ -10,8 +10,6 @@ How to make a custom 502 Bad Gateway page example project.
 
 > [!NOTE]
 > Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/002-make-a-custom-502-page)
->
-> To access custom 502 Bad Gateway page, go to /502.html
 
 <br>
 
