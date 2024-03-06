@@ -15,6 +15,14 @@ How to make a custom 502 Bad Gateway page example project.
 
 ## Installation
 
+0. Checkout branch
+
+```bash
+git checkout 002-make-a-custom-502-page
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
