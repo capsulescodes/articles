@@ -8,6 +8,14 @@ How to use several databases within your laravel project.
 
 ## Installation
 
+O. Checkout branch
+
+```bash
+git checkout 003-use-several-databases-within-your-laravel-project
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
@@ -16,16 +24,7 @@ commposer install
 
 <br>
 
-2. Create databases `one` and `two`
-```bash
-mysql -u <username> -p <password> -e "CREATE DATABASE one"
-
-mysql -u <username> -p <password> -e "CREATE DATABASE two"
-```
-
-<br>
-
-3. Copy Environment, generate app key and possibly add database credentials
+2. Copy Environment, generate app key and optionally add database credentials
 ```bash
 cp .env.example .env
 
@@ -34,15 +33,17 @@ php artisan key:generate
 
 <br>
 
-4. Launch migrations
-
+3. Create and migrate SQLite database `one` and SQLite database `two`
 ```bash
+touch database/one.sqlite
+touch database/two.sqlite
+
 php artisan migrate
 ```
 
 <br>
 
-5. Link your project with Laravel Valet
+4. Link your project with Laravel Valet
 
 ```bash
 valet link article
