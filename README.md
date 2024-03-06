@@ -15,6 +15,14 @@ How to make your own Artisan script example project.
 
 ## Installation
 
+0. Checkout branch
+
+```bash
+git checkout 001-make-your-own-artisan
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
