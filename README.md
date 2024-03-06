@@ -5,10 +5,17 @@
 
 How to use several databases within your laravel project.
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo ](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/003-use-several-databases-within-your-laravel-project)
+
+<br>
 
 ## Installation
 
-O. Checkout branch
+0. Checkout branch
 
 ```bash
 git checkout 003-use-several-databases-within-your-laravel-project
