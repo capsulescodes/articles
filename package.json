@@ -1,3 +1,12 @@
 {
-    "type": "module"
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "php": "php",
+        "serve": "vite & serve",
+        "composer": "php --disable-functions vendor/bin/composer"
+    },
+    "devDependencies": {
+        "browser-php": "^0.3.2"
+    }
 }
