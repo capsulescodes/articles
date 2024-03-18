@@ -1,13 +1,13 @@
 {
     "$schema" : "https://codesandbox.io/schemas/tasks.json",
     "setupTasks" : [
-        { "name" : "Install Template Node Dependencies", "command" : "npm --prefix template install" },
+        { "name" : "Install Template Node Dependencies", "command" : "cd template && npm install" },
         { "name" : "Install Template Composer Binary", "command" : "cd template && node node_modules/browser-php/build/installer.js" },
-        { "name" : "Install Template PHP Dependencies", "command" : "npm --prefix template run composer install -- --ignore-platform-reqs --no-scripts" },
-        { "name" : "Prepare Template Environment Variables", "command" : "cp template/.env.example template/.env && npm --prefix template run php artisan key:generate" }
+        { "name" : "Install Template PHP Dependencies", "command" : "cd template && npm run composer install -- --ignore-platform-reqs --no-scripts" },
+        { "name" : "Prepare Template Environment Variables", "command" : "cd template && cp .env.example .env && npm run php artisan key:generate" }
     ],
     "tasks" : {
-        "dev" : { "name" : "Start Dev and PHP Server", "command" : "npm --prefix template run serve", "preview" : { "port" : 2222 }, "runAtStart": true },
-        "cli" : { "name" : "Start New Terminal", "command" : "npm --prefix template run greet", "runAtStart" : true }
+        "dev" : { "name" : "Start Dev and PHP Server", "command" : "cd template && npm run serve", "preview" : { "port" : 2222 }, "runAtStart": true },
+        "cli" : { "name" : "Start New Terminal", "command" : "cd template && npm run greet", "runAtStart" : true }
     }
 }
