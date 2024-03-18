@@ -3,44 +3,62 @@
 
 ## About
 
-Here are stored the projects examples linked with <a href="https://capsules.codes/en/blog">Capsules articles</a>.
-Inviting readers to try out the articles content by themselves.
+How to create a Node package on your local Laravel environment.
 
 <br>
+<br>
 
-## Articles
-
-- [ Make your own artisan ](https://github.com/capsulescodes/articles/tree/001-make-your-own-artisan)
-- [ Make a custom 502 page ](https://github.com/capsulescodes/articles/tree/002-make-a-custom-502-page)
-- [ Use several databases within your Laravel project ](https://github.com/capsulescodes/articles/tree/003-use-several-databases-within-your-laravel-project)
-- [ Add a global dark mode with Tailwind CSS ](https://github.com/capsulescodes/articles/tree/004-add-a-global-dark-mode-with-tailwindcss)
-- [ Display a modal using Vue Teleport component ](https://github.com/capsulescodes/articles/tree/005-display-a-modal-using-vue-teleport-component)
-- [ Build a Laravel blog using Vue and Canvas ](https://github.com/capsulescodes/articles/tree/006-build-a-laravel-blog-using-vue-and-canvas)
-- [ Modify tables and records with Laravel Population ](https://github.com/capsulescodes/articles/tree/007-modify-tables-and-records-with-laravel-population)
-- [ Create a Laravel package on your local environment ](https://github.com/capsulescodes/articles/tree/008-create-a-laravel-package-on-your-local-environment)
-- [ Organize Laravel tools on a unique subdomain ](https://github.com/capsulescodes/articles/tree/009-organize-laravel-tools-on-a-unique-subdomain)
-- [ Collect feedback via Slack notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/010-collect-feedback-via-slack-notifications-in-your-laravel-project)
-- [ Implement a translation system in your Laravel Vue project ](https://github.com/capsulescodes/articles/tree/011-implement-a-translation-system-in-your-laravel-vue-project)
-- [ Run Laravel on your browser with Browser PHP ](https://github.com/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/013-create-a-node-package-on-your-local-laravel-environment)
 
 <br>
 
 ## Installation
 
-1. Clone the repository
+0. Checkout branch
 
 ```bash
-git clone https://github.com/capsulescodes/articles.git
+git checkout 013-create-a-node-package-on-your-local-laravel-environment
 ```
 
 <br>
 
-2. Checkout the article related branch
+1. Install dependencies
 
 ```bash
-git checkout {article-slug}
+cd template
+
+commposer install
+
+npm install
 ```
 
 <br>
 
-3. Follow the instructions in article related branch README file
+2. Copy Environment and generate app key
+
+```bash
+cp .env.example .env
+
+php artisan key:generate
+```
+
+<br>
+
+3. Link your project with Laravel Valet
+
+```bash
+valet link article
+```
+
+<br>
+
+4. Visit your website : http://article.test
+
+<br>
+
+5. Access Node CLI
+
+```bash
+> npm run greet
+```

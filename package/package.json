@@ -1,0 +1,14 @@
+{
+    "name": "capsulescodes-package",
+    "description": "Capsules Codes Package",
+    "type": "module",
+    "main": "src/Greeter.js",
+    "files": [
+        "!*",
+        "src"
+    ],
+    "bin": {
+        "greet": "src/Commands/Greet.js",
+        "say": "src/Commands/Say.js"
+    }
+}
