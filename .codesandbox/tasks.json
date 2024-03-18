@@ -2,6 +2,7 @@
     "$schema" : "https://codesandbox.io/schemas/tasks.json",
     "setupTasks" : [
         { "name" : "Install Template Node Dependencies", "command" : "npm --prefix template install" },
+        { "name" : "Install Template Composer Binary", "command" : "node template/node_modules/browser-php/build/installer.js" },
         { "name" : "Install Template PHP Dependencies", "command" : "npm --prefix template run composer install -- --ignore-platform-reqs --no-scripts" },
         { "name" : "Prepare Template Environment Variables", "command" : "cp template/.env.example template/.env && npm --prefix template run php artisan key:generate" }
     ],
