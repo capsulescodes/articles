@@ -22,6 +22,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Collect feedback via Slack notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/010-collect-feedback-via-slack-notifications-in-your-laravel-project)
 - [ Implement a translation system in your Laravel Vue project ](https://github.com/capsulescodes/articles/tree/011-implement-a-translation-system-in-your-laravel-vue-project)
 - [ Run Laravel on your browser with Browser PHP ](https://github.com/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
+- [ Create a Node package on your local Laravel environment ](https://github.com/capsulescodes/articles/tree/013-create-a-node-package-on-your-local-laravel-environment)
 
 <br>
 
