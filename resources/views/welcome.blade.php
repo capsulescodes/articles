@@ -22,17 +22,17 @@
 
             @if( Request::path() !== 'dark-mode' )
 
-                <a href="/dark-mode" class="p-2 rounded-md outline-none hover:bg-slate-50">
+                <a href="/dark-mode" class="p-2 rounded-md outline-none hover:bg-slate-100">
 
-                    <img class="w-6 h-6 dark-image-mode select-none" src="/assets/capsules-sun-icon.svg" alt="Sun icon">
+                    <img class="w-6 h-6 dark-image-mode select-none" src="/assets/capsules-moon-icon.svg" alt="Moon icon">
 
                 </a>
 
             @else
 
-                <a href="/light-mode" class="p-2 rounded-md outline-none  hover:bg-slate-50">
+                <a href="/light-mode" class="p-2 rounded-md outline-none hover:bg-slate-100">
 
-                    <img class="w-6 h-6 dark-image-mode select-none" src="/assets/capsules-moon-icon.svg" alt="Moon icon">
+                    <img class="w-6 h-6 dark-image-mode select-none" src="/assets/capsules-sun-icon.svg" alt="Moon icon">
 
                 </a>
 
