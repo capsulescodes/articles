@@ -5,8 +5,23 @@
 
 How to build a Laravel blog using Vue and [Canvas](https://trycanvas.app/).
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/006-build-a-laravel-blog-using-vue-and-canvas)
+
+<br>
 
 ## Installation
+
+0. Checkout branch
+
+```bash
+git checkout 006-build-a-laravel-blog-using-vue-and-canvas
+```
+
+<br>
 
 1. Install dependencies
 
@@ -31,7 +46,7 @@ php artisan key:generate
 3. Populate the database
 
 ```bash
-mysql -u <username> -p <password> -e "CREATE DATABASE blog"
+touch database/blog.sqlite
 
 php artisan canvas:install
 
