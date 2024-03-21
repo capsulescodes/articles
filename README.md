@@ -5,8 +5,23 @@
 
 How to display a modal using Vue and its built-in Teleport component.
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [ CodeSandbox Demo ](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/005-display-a-modal-using-vue-teleport-component)
+
+<br>
 
 ## Installation
+
+0. Checkout branch
+
+```bash
+git checkout 005-display-a-modal-using-vue-teleport-component
+```
+
+<br>
 
 1. Install dependencies
 
