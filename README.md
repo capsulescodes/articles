@@ -5,11 +5,6 @@
 
 How to build a Laravel blog using Vue and [Canvas](https://trycanvas.app/).
 
-<br>
-<br>
-
-> [!NOTE]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/006-build-a-laravel-blog-using-vue-and-canvas)
 
 <br>
 
