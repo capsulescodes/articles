@@ -1,0 +1,20 @@
+{
+  "public/assets/capsules-logotype.svg": {
+    "file": "assets/capsules-logotype-CDqCz6f5.svg",
+    "src": "public/assets/capsules-logotype.svg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-QxJdQD3m.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B_LuV5Nz.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "assets": [
+      "assets/capsules-logotype-CDqCz6f5.svg"
+    ]
+  }
+}
