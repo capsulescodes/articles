@@ -23,8 +23,6 @@ git checkout 014-draw-a-dynamic-svg-pattern-with-vue
 
 <br>
 
-## Installation
-
 1. Install dependencies
 
 ```bash
