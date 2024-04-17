@@ -23,6 +23,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Implement a translation system in your Laravel Vue project ](https://github.com/capsulescodes/articles/tree/011-implement-a-translation-system-in-your-laravel-vue-project)
 - [ Run Laravel on your browser with Browser PHP ](https://github.com/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
 - [ Create a Node package on your local Laravel environment ](https://github.com/capsulescodes/articles/tree/013-create-a-node-package-on-your-local-laravel-environment)
+- [ Draw a dynamic SVG pattern with Vue ](https://github.com/capsulescodes/articles/tree/014-draw-a-dynamic-svg-pattern-with-vue)
 
 <br>
 
