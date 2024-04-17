@@ -3,39 +3,62 @@
 
 ## About
 
-How to modify tables and records with [Laravel Population](https://github.com/capsulescodes/laravel-population).
+How to draw a dynamic SVG pattern with Vue in a Laravel project.
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/014-draw-a-dynamic-svg-pattern-with-vue)
+
+<br>
+
+## Installation
+
+0. Checkout branch
+
+```bash
+git checkout 014-draw-a-dynamic-svg-pattern-with-vue
+```
+
+<br>
 
 ## Installation
 
 1. Install dependencies
 
 ```bash
-composer install
+commposer install
+
+npm install
 ```
 
 <br>
 
-2. Copy Environment and modify database credentials
+2. Copy Environment and generate app key
 
 ```bash
 cp .env.example .env
+
+php artisan key:generate
 ```
 
 <br>
 
-3. Set up initial database
+3. Link your project with Laravel Valet
 
 ```bash
-mysql -u <username> -p <password> -e "CREATE DATABASE template"
-
-php artisan populate:rollback
+valet link article
 ```
 
 <br>
 
-4. Populate
+4. Run development server script
 
 ```bash
-php artisan populate
+npm run dev
 ```
+
+<br>
+
+5. Visit your website : http://article.test
