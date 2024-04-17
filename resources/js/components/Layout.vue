@@ -7,9 +7,9 @@ import logotype from '/public/assets/capsules-logotype.svg';
 
 <template>
 
-    <div class="relative min-h-screen flex flex-col sm:justify-center items-center space-y-6">
+    <div class="relative min-h-screen flex flex-col sm:justify-center items-center">
 
-        <a class="relative w-16 h-16 pt-6 sm:pt-0" href="/">
+        <a class="relative w-16 h-16 mt-6" href="/">
 
             <transition leave-active-class="transition ease-in duration-250" leave-from-class="opacity-100" leave-to-class="opacity-0">
 
@@ -19,7 +19,7 @@ import logotype from '/public/assets/capsules-logotype.svg';
 
         </a>
 
-        <div class="w-full sm:max-w-md">
+        <div class="w-full sm:max-w-md my-6">
 
             <slot />
 
