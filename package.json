@@ -5,7 +5,7 @@
         "dev": "vite",
         "build": "vite build",
         "php" : "php",
-        "serve" : "vite & serve",
+        "serve" : "vite build & serve",
         "composer" : "php --disable-functions vendor/bin/composer"
     },
     "devDependencies": {
