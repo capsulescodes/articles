@@ -6,6 +6,6 @@
         { "name" : "Prepare Environment Variables", "command" : "cp .env.example .env && npm run php artisan key:generate" }
     ],
     "tasks" : {
-        "serve" : { "name" : "Build and Start PHP Server", "command" : "npm run serve", "preview" : { "port" : 2222 }, "runAtStart": true }
+        "dev" : { "name" : "Build and Start PHP Server", "command" : "npm run serve", "preview" : { "port" : 2222 }, "runAtStart": true }
     }
 }
