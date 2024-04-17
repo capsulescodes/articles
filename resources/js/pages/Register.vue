@@ -14,7 +14,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="name"><span v-text="'Name'"></span></label>
+                    <label class="font-medium text-xs text-gray-700" for="name"><span>Name</span></label>
 
                     <input
                         id="name"
@@ -30,7 +30,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="email"><span v-text="'Email'"></span></label>
+                    <label class="font-medium text-xs text-gray-700" for="email"><span>Email</span></label>
 
                     <input
                         id="email"
@@ -45,7 +45,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="password"><span v-text="'Password'"></span></label>
+                    <label class="font-medium text-xs text-gray-700" for="password"><span>Password</span></label>
 
                     <input
                         id="password"
@@ -60,7 +60,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="password_confirmation"><span v-text="'Confirm Password'"></span></label>
+                    <label class="font-medium text-xs text-gray-700" for="password_confirmation"><span>Confirm Password</span></label>
 
                     <input
                         id="password_confirmation"
@@ -88,13 +88,13 @@ import Layout from '~/components/Layout.vue';
 
                             <div>
 
-                                <span v-text="'I agree to the '" />
+                                <span>I agree to the </span>
 
-                                <a href="/terms" v-text="'Terms of Service'" />
+                                <a href="/terms" >Terms of Service</a>
 
-                                <span v-text="' and '" />
+                                <span> and </span>
 
-                                <a href="/privacy" v-text="'Privacy Policy'" />
+                                <a href="/privacy" >Privacy Policy</a>
 
                             </div>
 
@@ -106,13 +106,9 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="flex items-center justify-end space-x-4 text-end">
 
-                    <a href="/" class="text-sm rounded-md text-gray-600 hover:text-primary-black" v-text="'Already registered?'" />
+                    <a href="/" class="text-sm rounded-md text-gray-600 hover:text-primary-black" >Already registered?</a>
 
-                    <button
-                        type="submit"
-                        class="px-4 py-2 rounded-md button bg-primary-red text-primary-white hover:bg-primary-black active:bg-gray-900"
-                        v-text="'Register'"
-                    />
+                    <button type="submit" class="px-4 py-2 rounded-md button bg-primary-red text-primary-white hover:bg-primary-black active:bg-gray-900">Register</button>
 
                 </div>
 
