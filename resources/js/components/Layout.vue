@@ -7,7 +7,7 @@ import logotype from '/public/assets/capsules-logotype.svg';
 
 <template>
 
-    <div class="relative min-h-screen flex flex-col sm:justify-center items-center">
+    <div class="relative min-h-screen flex flex-col sm:justify-center items-center space-y-6">
 
         <a class="relative w-16 h-16 pt-6 sm:pt-0" href="/">
 
