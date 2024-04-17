@@ -14,7 +14,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="name"><span v-text="'Name'" /></label>
+                    <label class="font-medium text-xs text-gray-700" for="name"><span v-text="'Name'"></span></label>
 
                     <input
                         id="name"
@@ -30,7 +30,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="email"><span v-text="'Email'" /></label>
+                    <label class="font-medium text-xs text-gray-700" for="email"><span v-text="'Email'"></span></label>
 
                     <input
                         id="email"
@@ -45,7 +45,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="password"><span v-text="'Password'" /></label>
+                    <label class="font-medium text-xs text-gray-700" for="password"><span v-text="'Password'"></span></label>
 
                     <input
                         id="password"
@@ -60,7 +60,7 @@ import Layout from '~/components/Layout.vue';
 
                 <div class="space-y-1">
 
-                    <label class="font-medium text-xs text-gray-700" for="password_confirmation"><span v-text="'Confirm Password'" /></label>
+                    <label class="font-medium text-xs text-gray-700" for="password_confirmation"><span v-text="'Confirm Password'"></span></label>
 
                     <input
                         id="password_confirmation"
