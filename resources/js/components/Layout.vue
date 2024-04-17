@@ -1,6 +1,6 @@
 <script setup>
 
-import Background from '~/components/backgrounds/Pattern.vue';
+import Background from '/resources/js/components/backgrounds/Pattern.vue';
 import logotype from '/public/assets/capsules-logotype.svg';
 
 </script>
@@ -25,7 +25,7 @@ import logotype from '/public/assets/capsules-logotype.svg';
 
         </div>
 
-        <Background class="fixed -z-10 w-screen h-screen" />
+        <Background class="absolute -z-10 w-screen h-full" />
 
     </div>
 

@@ -1,6 +1,6 @@
 <script setup>
 
-import Layout from '~/components/Layout.vue';
+import Layout from '/resources/js/components/Layout.vue';
 
 </script>
 
