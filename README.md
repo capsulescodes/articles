@@ -21,6 +21,8 @@ Implement a translation system in your Laravel Vue project.
 git checkout 011-implement-a-translation-system-in-your-laravel-vue-project
 ```
 
+<br>
+
 1. Install dependencies
 
 ```bash
