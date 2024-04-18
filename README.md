@@ -5,8 +5,21 @@
 
 Implement a translation system in your Laravel Vue project.
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/011-implement-a-translation-system-in-your-laravel-vue-project)
+
+<br>
 
 ## Installation
+
+0. Checkout branch
+
+```bash
+git checkout 011-implement-a-translation-system-in-your-laravel-vue-project
+```
 
 1. Install dependencies
 

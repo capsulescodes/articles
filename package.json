@@ -3,10 +3,14 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "php" : "php",
+        "serve" : "vite & serve",
+        "composer" : "php --disable-functions vendor/bin/composer"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.17",
+        "browser-php": "^0.4.2",
         "laravel-vite-plugin": "^1.0.0",
         "postcss": "^8.4.33",
         "tailwindcss": "^3.4.1",
