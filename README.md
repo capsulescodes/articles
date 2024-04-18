@@ -43,14 +43,6 @@ php artisan key:generate
 
 <br>
 
-3. Publish assets
-
-```bash
-php artisan telescope:install
-
-php artisan vendor:publish --provider="Laravel\Pulse\PulseServiceProvider"
-```
-
 <br>
 
 3. Create and populate the database
