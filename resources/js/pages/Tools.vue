@@ -23,9 +23,10 @@ const props = defineProps( { service : { type : String, required : true }, url :
 
                 <div class="flex flex-col space-y-1">
 
-                    <Link class="py-2 rounded-md" v-bind:class=" props.service === 'pulse' ? 'bg-slate-100' : 'hover:bg-slate-50' " href="/pulse" v-bind:replace="true" as="button"><img class="mx-2 h-4 w-4" v-bind:src="pulse"></link>
+                    <Link class="py-2 rounded-md" v-bind:class=" props.service === 'pulse' ? 'bg-slate-100' : 'hover:bg-slate-50' " href="/pulse" v-bind:replace="true" as="button"><img class="mx-2 h-4 w-4" v-bind:src="pulse"></Link>
 
-                    <Link class="py-2 rounded-md" v-bind:class=" props.service === 'telescope' ? 'bg-slate-100' : 'hover:bg-slate-50' " href="/telescope" v-bind:replace="true" as="button"><img class="mx-2 h-4 w-4" v-bind:src="telescope"></link>
+                    <Link class="py-2 rounded-md" v-bind:class=" props.service === 'telescope' ? 'bg-slate-100' : 'hover:bg-slate-50' " href="/telescope" v-bind:replace="true" as="button"><img class="mx-2 h-4 w-4" v-bind:src="telescope"></Link>
+
                 </div>
 
             </div>

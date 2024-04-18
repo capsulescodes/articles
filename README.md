@@ -5,8 +5,23 @@
 
 How to organize Laravel tools on a unique subdomain.
 
+<br>
+<br>
+
+> [!NOTE]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/009-organize-laravel-tools-on-a-unique-subdomain)
+
+<br>
 
 ## Installation
+
+0. Checkout branch
+
+```bash
+git checkout 009-organize-laravel-tools-on-a-unique-subdomain
+```
+
+<br>
 
 1. Install dependencies
 
@@ -18,7 +33,7 @@ npm install
 
 <br>
 
-2. Copy Environment, generate app key and modify database credentials
+2. Copy Environment and generate app key
 
 ```bash
 cp .env.example .env
@@ -28,12 +43,20 @@ php artisan key:generate
 
 <br>
 
-3. Populate the database and publish assets
+3. Publish assets
 
 ```bash
-mysql -u <username> -p <password> -e "CREATE DATABASE tools"
-
 php artisan telescope:install
+
+php artisan vendor:publish --provider="Laravel\Pulse\PulseServiceProvider"
+```
+
+<br>
+
+3. Create and populate the database
+
+```bash
+touch database/tools.sqlite
 
 php artisan migrate
 ```
