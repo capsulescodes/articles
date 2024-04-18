@@ -43,8 +43,6 @@ php artisan key:generate
 
 <br>
 
-<br>
-
 3. Create and populate the database
 
 ```bash
