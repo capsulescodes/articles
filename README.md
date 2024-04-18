@@ -10,6 +10,8 @@ How to organize Laravel tools on a unique subdomain.
 
 > [!NOTE]
 > Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/009-organize-laravel-tools-on-a-unique-subdomain)
+>
+> APP_DOMAIN environment variable should coincide with Codesandbox's subdomain in order to make this demo work
 
 <br>
 
