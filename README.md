@@ -43,8 +43,6 @@ php artisan key:generate
 ```bash
 touch database/blog.sqlite
 
-php artisan canvas:install
-
 php artisan db:seed
 
 php artisan storage:link

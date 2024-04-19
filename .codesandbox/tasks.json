@@ -4,7 +4,7 @@
         { "name" : "Install Node Dependencies", "command" : "npm install" },
         { "name" : "Install PHP Dependencies", "command" : "npm run composer install -- --ignore-platform-reqs --no-scripts" },
         { "name" : "Prepare Environment Variables", "command" : "cp .env.example .env && npm run php artisan key:generate" },
-        { "name" : "Create and Migrate Databases", "command" : "touch database/blog.sqlite && npm run php artisan canvas:install && npm run php artisan db:seed && npm run php artisan storage:link" }
+        { "name" : "Create and Migrate Databases", "command" : "touch database/blog.sqlite && npm run php artisan db:seed && npm run php artisan storage:link" }
     ],
     "tasks" : {
         "dev" : { "name" : "Start Dev and PHP Server", "command" : "npm run serve", "preview" : { "port" : 2222 }, "runAtStart": true }
