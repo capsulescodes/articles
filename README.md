@@ -8,11 +8,6 @@ How to draw a dynamic SVG pattern with Vue in a Laravel project.
 <br>
 <br>
 
-> [!NOTE]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/014-draw-a-dynamic-svg-pattern-with-vue)
-
-<br>
-
 ## Installation
 
 0. Checkout branch

@@ -10,6 +10,5 @@ export default defineConfig( {
             refresh : true,
         }),
         vue(),
-    ],
-    server : { host : 'localhost' }
+    ]
 });
