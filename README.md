@@ -9,7 +9,7 @@ How to make your own Artisan script example project.
 <br>
 
 > [!NOTE]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/001-make-your-own-artisan)
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/github/capsulescodes/articles/001-make-your-own-artisan)
 
 <br>
 
