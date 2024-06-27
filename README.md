@@ -8,11 +8,6 @@ How to make your own Artisan script example project.
 <br>
 <br>
 
-> [!NOTE]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/github/capsulescodes/articles/001-make-your-own-artisan)
-
-<br>
-
 ## Installation
 
 0. Checkout branch
