@@ -8,6 +8,11 @@ How to make a custom 502 Bad Gateway page example project.
 <br>
 <br>
 
+> [!TIP]
+> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/lingering-sea-pqqt25)
+
+<br>
+
 ## Installation
 
 0. Checkout branch
