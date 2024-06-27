@@ -5,7 +5,7 @@
 
 How to build a Laravel blog using Vue and [Canvas](https://trycanvas.app/).
 
-
+<br>
 <br>
 
 ## Installation
