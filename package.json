@@ -3,14 +3,10 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "php" : "php",
-        "serve" : "vite & serve",
-        "composer" : "php --disable-functions vendor/bin/composer"
+        "build": "vite build"
     },
     "devDependencies": {
         "axios": "^1.1.2",
-        "browser-php": "^0.4.1",
         "laravel-vite-plugin": "^0.7.5",
         "vite": "^4.0.0"
     }
