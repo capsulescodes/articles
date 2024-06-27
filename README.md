@@ -8,11 +8,6 @@ How to add a global dark mode in your Laravel project with Tailwind CSS.
 <br>
 <br>
 
-> [!NOTE]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo ](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/004-add-a-global-dark-mode-with-tailwindcss)
-
-<br>
-
 ## Installation
 
 0. Checkout branch

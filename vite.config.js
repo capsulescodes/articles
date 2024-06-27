@@ -10,6 +10,5 @@ export default defineConfig( {
     ],
     optimizeDeps: {
         include: [],
-      },
-    server : { host : 'localhost' }
+      }
 } );
