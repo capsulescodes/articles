@@ -8,11 +8,6 @@ How to create a Node package on your local Laravel environment.
 <br>
 <br>
 
-> [!NOTE]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/github/capsulescodes/articles/tree/013-create-a-node-package-on-your-local-laravel-environment)
-
-<br>
-
 ## Installation
 
 0. Checkout branch
