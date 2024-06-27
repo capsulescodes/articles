@@ -10,6 +10,7 @@ How to make your own Artisan script example project.
 
 > [!TIP]
 > Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/snowy-cdn-rflxtw)
+
 <br>
 
 ## Installation
