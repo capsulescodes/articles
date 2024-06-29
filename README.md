@@ -5,6 +5,7 @@
 
 How to modify tables and records with [Laravel Population](https://github.com/capsulescodes/laravel-population).
 
+<br>
 
 ## Installation
 
