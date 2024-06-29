@@ -6,12 +6,6 @@
 How to use several databases within your laravel project.
 
 <br>
-<br>
-
-> [!TIP]
-> Access the CodeSandbox demo via this link : [CodeSandbox Demo](https://codesandbox.io/p/devbox/silly-zhukovsky-tkl95q)
-
-<br>
 
 ## Installation
 
