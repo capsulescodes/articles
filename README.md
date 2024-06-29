@@ -5,6 +5,7 @@
 
 Collect feedback via Slack notifications in your Laravel project.
 
+<br>
 
 ## Installation
 
