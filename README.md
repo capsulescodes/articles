@@ -5,6 +5,7 @@
 
 How to create a Laravel package on your local environment.
 
+<br>
 
 ## Installation
 
