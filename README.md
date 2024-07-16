@@ -9,6 +9,14 @@ Collect feedback via Slack notifications in your Laravel project.
 
 ## Installation
 
+0. Checkout branch
+
+```bash
+git checkout 010-collect-feedback-via-slack-notifications-in-your-laravel-project
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
