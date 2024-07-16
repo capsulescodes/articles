@@ -15,6 +15,8 @@ Collect feedback via Discord notifications in your Laravel project.
 git checkout 015-collect-feedback-via-discord-notifications-in-your-laravel-project
 ```
 
+<br>
+
 1. Install dependencies
 
 ```bash
