@@ -24,6 +24,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Run Laravel on your browser with Browser PHP ](https://github.com/capsulescodes/articles/tree/012-run-laravel-on-your-browser-with-browser-php)
 - [ Create a Node package on your local Laravel environment ](https://github.com/capsulescodes/articles/tree/013-create-a-node-package-on-your-local-laravel-environment)
 - [ Draw a dynamic SVG pattern with Vue ](https://github.com/capsulescodes/articles/tree/014-draw-a-dynamic-svg-pattern-with-vue)
+- [ Collect feedback via Discord notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/015-collect-feedback-via-discord-notifications-in-your-laravel-project)
 
 <br>
 
