@@ -39,12 +39,12 @@ git clone https://github.com/capsulescodes/articles.git
 
 <br>
 
-2. Checkout the article related branch
+2. Go into directory
 
 ```bash
-git checkout {article-slug}
+cd articles
 ```
 
 <br>
 
-3. Follow the instructions in article related branch README file
+3. Follow the instructions in article related branch `README`file
