@@ -39,7 +39,7 @@ git clone https://github.com/capsulescodes/articles.git
 
 <br>
 
-2. Go into directory
+2. Navigate to directory
 
 ```bash
 cd articles
@@ -47,4 +47,4 @@ cd articles
 
 <br>
 
-3. Follow the instructions in article related branch `README`file
+3. Follow the instructions in article related branch `README` file
