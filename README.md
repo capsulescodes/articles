@@ -25,6 +25,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Create a Node package on your local Laravel environment ](https://github.com/capsulescodes/articles/tree/013-create-a-node-package-on-your-local-laravel-environment)
 - [ Draw a dynamic SVG pattern with Vue ](https://github.com/capsulescodes/articles/tree/014-draw-a-dynamic-svg-pattern-with-vue)
 - [ Collect feedback via Discord notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/015-collect-feedback-via-discord-notifications-in-your-laravel-project)
+- [ Create a custom error page with Laravel and Inertia ](https://github.com/capsulescodes/articles/tree/016-create-a-custom-error-page-with-laravel-and-inertia)
 
 <br>
 
