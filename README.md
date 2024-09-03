@@ -26,6 +26,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Draw a dynamic SVG pattern with Vue ](https://github.com/capsulescodes/articles/tree/014-draw-a-dynamic-svg-pattern-with-vue)
 - [ Collect feedback via Discord notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/015-collect-feedback-via-discord-notifications-in-your-laravel-project)
 - [ Create a custom error page with Laravel and Inertia ](https://github.com/capsulescodes/articles/tree/016-create-a-custom-error-page-with-laravel-and-inertia)
+- [ Craft emails with Vue and Tailwind using Inertia Mailable ](https://github.com/capsulescodes/articles/tree/017-craft-emails-with-vue-and-tailwind-using-inertia-mailable)
 
 <br>
 
