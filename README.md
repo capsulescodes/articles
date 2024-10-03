@@ -13,6 +13,10 @@ Implement a translation system in your Laravel Vue project.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 011-implement-a-translation-system-in-your-laravel-vue-project
 ```
 
