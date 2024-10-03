@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/capsulescodes/articles/main/capsules-articles-image.svg" width="300px" height="200px" /></p>
+<p align="center"><img src="art/capsules-articles-image.svg" width="300px" height="200px" /></p>
 
 
 ## About
