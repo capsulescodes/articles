@@ -13,6 +13,10 @@ How to run Laravel on your Browser with [Browser PHP](https://github.com/capsule
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 012-run-laravel-on-your-browser-with-browser-php
 ```
 
