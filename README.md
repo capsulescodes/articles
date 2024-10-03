@@ -13,6 +13,10 @@ How to build a Laravel blog using Vue and [Canvas](https://trycanvas.app/).
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 006-build-a-laravel-blog-using-vue-and-canvas
 ```
 
