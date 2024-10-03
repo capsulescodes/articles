@@ -12,6 +12,10 @@ How to make a custom 502 Bad Gateway page example project.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 002-make-a-custom-502-page
 ```
 
