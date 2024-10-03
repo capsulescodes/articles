@@ -9,6 +9,18 @@ How to create a Laravel package on your local environment.
 
 ## Installation
 
+0. Checkout branch
+
+```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
+git checkout 008-create-a-laravel-package-on-your-local-environment
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
