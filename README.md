@@ -9,6 +9,18 @@ How to modify tables and records with [Laravel Population](https://github.com/ca
 
 ## Installation
 
+0. Checkout branch
+
+```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
+git checkout 007-modify-tables-and-records-with-laravel-population
+```
+
+<br>
+
 1. Install dependencies
 
 ```bash
