@@ -12,6 +12,10 @@ Create a custom error page with Laravel and Inertia.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 016-create-a-custom-error-page-with-laravel-and-inertia
 ```
 
