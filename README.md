@@ -12,6 +12,10 @@ Collect feedback via Slack notifications in your Laravel project.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 010-collect-feedback-via-slack-notifications-in-your-laravel-project
 ```
 
