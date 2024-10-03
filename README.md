@@ -12,6 +12,10 @@ How to display a modal using Vue and its built-in Teleport component.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 005-display-a-modal-using-vue-teleport-component
 ```
 
