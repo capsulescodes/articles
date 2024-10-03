@@ -13,6 +13,10 @@ How to draw a dynamic SVG pattern with Vue in a Laravel project.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 014-draw-a-dynamic-svg-pattern-with-vue
 ```
 
