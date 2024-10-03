@@ -13,6 +13,10 @@ How to organize Laravel tools on a unique subdomain.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 009-organize-laravel-tools-on-a-unique-subdomain
 ```
 
