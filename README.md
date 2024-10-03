@@ -32,20 +32,4 @@ Inviting readers to try out the articles content by themselves.
 
 ## Installation
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/capsulescodes/articles.git
-```
-
-<br>
-
-2. Navigate to directory
-
-```bash
-cd articles
-```
-
-<br>
-
-3. Follow the instructions in article related branch `README` file
+Follow the instructions in the `README` file of the related article branch.
