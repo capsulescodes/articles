@@ -12,6 +12,10 @@ How to use several databases within your laravel project.
 0. Checkout branch
 
 ```bash
+git clone https://github.com/capsulescodes/articles.git
+
+cd articles
+
 git checkout 003-use-several-databases-within-your-laravel-project
 ```
 
