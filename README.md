@@ -41,10 +41,10 @@ php artisan key:generate
 
 <br>
 
-3. Link your project
+3. Link your project with Laravel Valet
 
 ```bash
-valet link article || herd link article || php artisan serve
+valet link article
 ```
 
 <br>
