@@ -27,6 +27,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Collect feedback via Discord notifications in your Laravel project ](https://github.com/capsulescodes/articles/tree/015-collect-feedback-via-discord-notifications-in-your-laravel-project)
 - [ Create a custom error page with Laravel and Inertia ](https://github.com/capsulescodes/articles/tree/016-create-a-custom-error-page-with-laravel-and-inertia)
 - [ Craft emails with Vue and Tailwind using Inertia Mailable ](https://github.com/capsulescodes/articles/tree/017-craft-emails-with-vue-and-tailwind-using-inertia-mailable)
+- [ Create a backup of your Laravel project on Dropbox ](https://github.com/capsulescodes/articles/tree/018-create-a-backup-of-your-laravel-project-on-dropbox)
 
 <br>
 
