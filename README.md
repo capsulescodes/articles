@@ -37,7 +37,15 @@ cp .env.example .env
 
 <br>
 
-3. Run tests
+3. Create database
+
+```bash
+touch database/database.sqlite
+```
+
+<br>
+
+4. Run tests
 
 ```bash
 vendor/bin/pest
