@@ -37,17 +37,7 @@ cp .env.example .env
 
 <br>
 
-3. Set up initial database
-
-```bash
-mysql -u <username> -p <password> -e "CREATE DATABASE template"
-
-php artisan populate:rollback
-```
-
-<br>
-
-4. Populate
+3. Populate
 
 ```bash
 php artisan populate
