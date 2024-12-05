@@ -58,7 +58,22 @@ trait Bootloadable
 
             $filename = Str::of( $file )->basename()->explode( '.' )->first();
 
-            if( $factory->class === self::class ) $data = [ ...$data, ...[ $filename => count( $factory->methods ) ] ];
+            if ($factory->class === self::class) {
+                $count = collect($factory->methods)->reduce(function ($carry, $method) {
+                    if (!empty($method->datasets)) {
+                        $providerName = collect($method->attributes)
+                            ->firstWhere('name', 'PHPUnit\Framework\Attributes\DataProvider')
+                            ->arguments[ 0 ];
+                        $datasetCount = count($this->$providerName());
+            
+                        return $carry + $datasetCount;
+                    }
+                    // If dont use datasets, count 1
+                    return $carry + 1;
+                }, 0);
+            
+                $data = [ ...$data, ...[ $filename => $count ] ];
+            }
         }
 
         self::$tests = $data;
