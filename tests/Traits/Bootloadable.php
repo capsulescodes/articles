@@ -2,8 +2,6 @@
 
 namespace Tests\Traits;
 
-use Illuminate\Support\Arr;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Pest\TestSuite;
 

@@ -12,6 +12,7 @@ beforeEach( function()
 
 
 
+
 it( "can modify first user name between two tests", function()
 {
     $name = $this->user->name;
@@ -24,6 +25,7 @@ it( "can modify first user name between two tests", function()
 
     $this->user->save();
 } );
+
 
 it( "can verify first user name between two tests", function()
 {

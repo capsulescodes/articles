@@ -4,8 +4,6 @@ namespace Tests;
 
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\Traits\Bootloadable;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\File;
 
 
 abstract class TestCase extends BaseTestCase
