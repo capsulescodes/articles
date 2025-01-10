@@ -25,6 +25,8 @@ git checkout 020-serve-a-laravel-project-on-web-desktop-and-mobile-with-tauri
 
 ```bash
 composer install
+
+npm install
 ```
 
 <br>
