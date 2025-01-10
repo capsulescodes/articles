@@ -29,7 +29,17 @@ composer install
 
 <br>
 
-2. Run commands
+2. Add environment
+
+```bash
+cp .env.example .env
+
+php artisan key:generate
+```
+
+<br>
+
+3. Run commands
 
 ```bash
 php artisan serve:web
