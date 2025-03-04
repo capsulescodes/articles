@@ -8,7 +8,7 @@ Inviting readers to try out the articles content by themselves.
 
 <br>
 
-## Articles
+## Related article branches
 
 - [ Make your own artisan ](https://github.com/capsulescodes/articles/tree/001-make-your-own-artisan)
 - [ Make a custom 502 page ](https://github.com/capsulescodes/articles/tree/002-make-a-custom-502-page)
@@ -30,6 +30,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Create a backup of your Laravel project on Dropbox ](https://github.com/capsulescodes/articles/tree/018-create-a-backup-of-your-laravel-project-on-dropbox)
 - [ Access Laravel before and after running Pest tests ](https://github.com/capsulescodes/articles/tree/019-access-laravel-before-and-after-running-pest-tests)
 - [ Serve a Laravel project on Web, Desktop and Mobile with Tauri ](https://github.com/capsulescodes/articles/tree/020-serve-a-laravel-project-on-web-desktop-and-mobile-with-tauri)
+- [ Craft emails with React and Tailwind using Inertia Mailable ](https://github.com/capsulescodes/articles/tree/021-craft-emails-with-react-and-tailwind-using-inertia-mailable)
 
 <br>
 
