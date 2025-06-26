@@ -31,6 +31,7 @@ Inviting readers to try out the articles content by themselves.
 - [ Access Laravel before and after running Pest tests ](https://github.com/capsulescodes/articles/tree/019-access-laravel-before-and-after-running-pest-tests)
 - [ Serve a Laravel project on Web, Desktop and Mobile with Tauri ](https://github.com/capsulescodes/articles/tree/020-serve-a-laravel-project-on-web-desktop-and-mobile-with-tauri)
 - [ Craft emails with React and Tailwind using Inertia Mailable ](https://github.com/capsulescodes/articles/tree/021-craft-emails-with-react-and-tailwind-using-inertia-mailable)
+- [ Work in your preferred style locally while maintaining a consistent style remotely using Flint ](https://github.com/capsulescodes/articles/tree/022-work-in-your-preferred-stylle-locally-while-maintaining-a-consistent-style-remotely-using-flint)
 
 <br>
 
