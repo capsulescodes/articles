@@ -1,0 +1,13 @@
+{
+    "linters" :
+    [
+        {
+            "extensions" : [ "js" ],
+            "binary" : "node_modules/.bin/eslint",
+            "commands" : {
+                "local" : "--fix --config eslint.local.config.js --quiet",
+                "remote" : "--fix --config eslint.remote.config.js --quiet"
+            }
+        }
+    ]
+}
