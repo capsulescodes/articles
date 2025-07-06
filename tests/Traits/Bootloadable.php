@@ -56,7 +56,7 @@ trait Bootloadable
 
             $filename = Str::of( $file )->basename()->explode( '.' )->first();
 
-            if( $factory->class === self::class ) $data = [ ...$data, ...[ $filename => count( $factory->methods ) ] ];
+            if( Str::contains( self::class, $factory->class ) ) $data = [ ...$data, ...[ $filename => $factory->methods ] ];
         }
 
         self::$tests = $data;
