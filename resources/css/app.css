@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+
+@source '../';
+
+
+@theme
+{
+    --color-primary-white : #FCFCFF;
+    --color-primary-red : #FB0075;
+    --color-primary-blue : #33E5E1;
+    --color-primary-black : #2D3955;
+
+
+    --animate-gradient : gradient 10s ease infinite;
+
+    @keyframes gradient
+    {
+        0% { background-position : 0% 0%; }
+        50% { background-position : 50% 0%; }
+        100% { background-position : 100% 0%; }
+    }
+}
+
+
+@layer base
+{
+    img
+    {
+        @apply select-none pointer-events-none;
+    }
+}
+
+
+.header-mode
+{
+    @apply text-transparent bg-clip-text bg-gradient-to-r bg-[length:1000%] animate-gradient from-10% from-primary-blue via-primary-red to-primary-blue to-90%;
+}
