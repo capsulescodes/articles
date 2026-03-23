@@ -24,7 +24,7 @@ git checkout 004-add-a-global-dark-mode-with-tailwindcss
 1. Install dependencies
 
 ```bash
-commposer install
+composer install
 
 npm install
 ```
