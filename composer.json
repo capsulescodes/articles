@@ -50,7 +50,10 @@
     "extra": {
         "laravel": {
             "dont-discover": []
-        }
+        },
+		"capsulescodes": {
+			"entry": "public/502.html"
+		}
     },
     "config": {
         "optimize-autoloader": true,
