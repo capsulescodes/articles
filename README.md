@@ -29,7 +29,7 @@ commposer install
 
 <br>
 
-2. Copy Environment, generate app key and optionally add database credentials
+2. Add environment and generate application key
 ```bash
 cp .env.example .env
 
@@ -48,10 +48,10 @@ php artisan migrate
 
 <br>
 
-4. Link your project with Laravel Valet
+4. Link your project
 
 ```bash
-valet link article
+herd link article
 ```
 
 <br>
