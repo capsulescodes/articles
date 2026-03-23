@@ -31,7 +31,7 @@ npm install
 
 <br>
 
-2. Modify Valet Configuration
+2. Modify Nginx Configuration
 
 ```bash
 error_page 502 /502.html;
@@ -42,7 +42,6 @@ location = /502.html {
 }
 ```
 
-- Valet config file path : `/opt/homebrew/etc/nginx/valet/valet.conf`.
 - Add these lines to the bottom of the server object.
 - This is only for testing purpose. Don't forget to remove these lines afterwards.
 
@@ -51,7 +50,7 @@ location = /502.html {
 3. Stop PHP Service
 
 ```bash
-valet restart
+herd restart
 
 brew services stop php@8.2
 ```
