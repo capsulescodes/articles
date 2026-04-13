@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        $user = User::first();
+        $user = User::create( [ 'id' => Str::uuid(), 'name' => 'Foo', 'email' => 'foo@bar.baz', 'password' => bcrypt( 'password' ) ] );
 
         for( $amount = 1; $amount <= 6; $amount++ )
         {

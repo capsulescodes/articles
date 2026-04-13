@@ -47,6 +47,8 @@ php artisan key:generate
 ```bash
 touch database/blog.sqlite
 
+php artisan migrate:fresh
+
 php artisan db:seed
 
 php artisan storage:link

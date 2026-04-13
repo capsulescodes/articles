@@ -9,5 +9,8 @@ export default defineConfig( {
             refresh: true,
         } ),
         vue()
-    ]
+    ],
+    server: {
+        cors: true
+    }
 } );
