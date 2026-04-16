@@ -33,12 +33,34 @@ composer install
 
 ```bash
 cp .env.example .env
+
+php artisan key:generate
+
+touch database/database.sqlite
+
+php artisan migrate:fresh --path=stubs --seed
 ```
 
 <br>
 
-3. Populate
+3. Verify users names
+
+```bash
+php artisan tinker
+
+> User::all();
+```
+
+4. Populate and modify `first_name` and `last_name` interactively
 
 ```bash
 php artisan populate
+```
+
+5. Verify users names again
+
+```bash
+php artisan tinker
+
+> User::all();
 ```

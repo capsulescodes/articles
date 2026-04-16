@@ -34,13 +34,16 @@
         }
     },
     "scripts": {
+        "setup": [
+            "composer install",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php artisan migrate:fresh --path=stubs --seed --ansi"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi",
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
-            "@php artisan key:generate --ansi",
-            "@php artisan migrate:fresh --path=stubs --seed"
+            "@php artisan package:discover --ansi"
         ]
     },
     "extra": {
