@@ -11,11 +11,11 @@ const height = 120;
 const rate = 10;
 const duration = 20000;
 
-const curves = 20;
+const curves = 10;
 const number = 100;
-const oscillation = 3;
-const amplitude = 5;
-const thickness = 1;
+const oscillation = 1;
+const amplitude = 6;
+const thickness = 4;
 const delay = 1000;
 
 const colors = [ "#ab81f2", "#ff7ab4", "#ff9b8b" ];
