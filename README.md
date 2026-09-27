@@ -33,6 +33,8 @@ composer install
 
 ```bash
 cp .env.example .env
+
+php artisan key:generate
 ```
 
 <br>

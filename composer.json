@@ -35,6 +35,19 @@
         }
     },
     "scripts": {
+        "setup": [
+            "composer install",
+            "npm install",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate --ansi",
+            "touch database/database.sqlite",
+            "@php artisan migrate",
+            "npm run build",
+            "@php -r \"echo 'Add your Nextcloud url in the .env file with NEXTCLOUD_URL';\n\"",
+            "@php -r \"echo 'Add your Nextcloud username in the .env file with NEXTCLOUD_USERNAME';\n\"",
+            "@php -r \"echo 'Add your Nextcloud password in the .env file with NEXTCLOUD_PASSWORD';\n\n\"",
+            "@php -r \"echo 'When you are ready, run `php artisan backup:run`';\""
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
