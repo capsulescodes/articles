@@ -32,6 +32,16 @@
         }
     },
     "scripts": {
+        "setup": [
+            "composer install",
+            "npm install",
+            "npm run build",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate --ansi",
+            "touch database/database.sqlite",
+            "@php artisan migrate",
+            "vendor/bin/pest"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
