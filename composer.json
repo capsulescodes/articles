@@ -33,6 +33,13 @@
         }
     },
     "scripts": {
+        "setup": [
+            "npm install",
+            "npm run composer install -- --ignore-platform-reqs --no-scripts",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "npm run php artisan key:generate",
+            "npm run serve"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
