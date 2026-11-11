@@ -25,22 +25,29 @@ git checkout 001-make-your-own-artisan
 
 ```bash
 commposer install
-
-npm install
 ```
 
 <br>
 
-2. Try is-dead command
+2. Add environment and generate application key
+
+```bash
+cp .env.example .env
+
+php is-dead key:generate
+```
+
+<br>
+
+3. Try inspire command
 
 ```bash
 php is-dead inspire
 ```
 
-
 <br>
 
-3. Try IsDead facade
+4. Try IsDead facade
 
 ```bash
 php is-dead tinker
