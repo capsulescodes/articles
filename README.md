@@ -32,7 +32,7 @@ npm install
 
 <br>
 
-2. Copy Environment, generate app key and modify database credentials
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -42,7 +42,7 @@ php artisan key:generate
 
 <br>
 
-3. Populate the database
+3. Create database and run migrations
 
 ```bash
 touch database/blog.sqlite
@@ -56,18 +56,18 @@ php artisan storage:link
 
 <br>
 
-4. Link your project with Laravel Valet
+4. Run development server script
 
 ```bash
-valet link article
+npm run dev
 ```
 
 <br>
 
-5. Run development server script
+5. Link your project
 
 ```bash
-npm run dev
+herd link article
 ```
 
 <br>
