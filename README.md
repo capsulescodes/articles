@@ -56,18 +56,18 @@ php artisan storage:link
 
 <br>
 
-4. Link your project with Laravel Valet
+4. Run development server script
 
 ```bash
-valet link article
+npm run dev
 ```
 
 <br>
 
-5. Run development server script
+5. Link your project with Laravel Valet
 
 ```bash
-npm run dev
+valet link article
 ```
 
 <br>
