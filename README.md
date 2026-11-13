@@ -47,9 +47,15 @@ php artisan migrate:fresh --path=stubs --seed
 
 ```bash
 php artisan tinker
-
-> User::all();
 ```
+
+```
+> User::all();
+
+> exit();
+```
+
+<br>
 
 4. Populate and modify `first_name` and `last_name` interactively
 
@@ -57,10 +63,30 @@ php artisan tinker
 php artisan populate
 ```
 
+```
+┌ Do you want to proceed on populating the 'users' table? ─────┐
+│ Yes                                                          │
+└──────────────────────────────────────────────────────────────┘
+
+┌ How would you like to convert the records for the column 'first_name' of … ┐
+│ fn( $a, $b ) => explode( ' ', $b->name )[ 0 ]                              │
+└────────────────────────────────────────────────────────────────────────────┘
+
+┌ How would you like to convert the records for the column 'last_name' of t… ┐
+│ fn( $a, $b ) => explode( ' ', $b->name )[ 1 ]                              │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br>
+
 5. Verify users names again
 
 ```bash
 php artisan tinker
+```
 
+```
 > User::all();
+
+> exit();
 ```
