@@ -41,18 +41,18 @@ php artisan key:generate
 
 <br>
 
-3. Link your project with Laravel Valet
+3. Run development server script
 
 ```bash
-valet link article
+npm run dev
 ```
 
 <br>
 
-4. Run development server script
+4. Link your project with Laravel Valet
 
 ```bash
-npm run dev
+valet link article
 ```
 
 <br>
