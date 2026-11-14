@@ -41,19 +41,7 @@ php artisan key:generate
 
 <br>
 
-3. Link your project with Laravel Valet
-
-```bash
-valet link article
-```
-
-<br>
-
-4. Visit your website : http://article.test
-
-<br>
-
-5. Access Artisan Tinker
+3. Access Artisan Tinker
 
 ```bash
 php artisan tinker
