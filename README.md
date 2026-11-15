@@ -52,15 +52,7 @@ php artisan migrate
 
 <br>
 
-4. Link your project with Laravel Valet
-
-```bash
-valet link article
-```
-
-<br>
-
-5. Run development server script
+4. Run development server script
 
 ```bash
 npm run dev
@@ -68,4 +60,12 @@ npm run dev
 
 <br>
 
-5. Visit your website : http://article.test
+5. Link your project with Laravel Valet
+
+```bash
+valet link article
+```
+
+<br>
+
+6. Visit your website : http://article.test or even your tools : http://tools.article.test
