@@ -43,18 +43,18 @@ LOG_SLACK_WEBHOOK_URL=https://hooks.slack.com/services/{your-webhook-key}
 
 <br>
 
-3. Link your project with Laravel Valet
+3. Run development server script
 
 ```bash
-valet link article
+npm run dev
 ```
 
 <br>
 
-4. Run development server script
+4. Link your project
 
 ```bash
-npm run dev
+herd link article
 ```
 
 <br>
