@@ -34,7 +34,7 @@ npm install
 
 <br>
 
-2. Copy Environment and generate app key
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -44,19 +44,7 @@ php artisan key:generate
 
 <br>
 
-3. Link your project with Laravel Valet
-
-```bash
-valet link article
-```
-
-<br>
-
-4. Visit your website : http://article.test
-
-<br>
-
-5. Access Node CLI
+3. Access Node CLI
 
 ```bash
 > npm run greet
