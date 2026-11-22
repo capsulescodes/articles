@@ -35,11 +35,14 @@
         "setup": [
             "composer install",
             "npm install",
-            "npm run build",
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@php artisan key:generate --ansi",
             "touch database/database.sqlite",
             "@php artisan migrate",
+            "npm run build",
+            "composer test"
+        ],
+        "test": [
             "vendor/bin/pest"
         ],
         "post-autoload-dump": [

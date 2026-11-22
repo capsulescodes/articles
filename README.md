@@ -29,7 +29,7 @@ composer install
 
 <br>
 
-2. Add environment
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -39,10 +39,12 @@ php artisan key:generate
 
 <br>
 
-3. Create database
+3. Create database and run migrations
 
 ```bash
 touch database/database.sqlite
+
+php artisan migrate
 ```
 
 <br>
@@ -50,5 +52,5 @@ touch database/database.sqlite
 4. Run tests
 
 ```bash
-vendor/bin/pest
+composer test
 ```
