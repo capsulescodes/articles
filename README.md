@@ -32,7 +32,7 @@ npm run composer install -- --ignore-platform-reqs --no-scripts
 
 <br>
 
-2. Copy Environment and generate app key
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -50,4 +50,4 @@ npm run serve
 
 <br>
 
-5. Visit your website : http://localhost:2222
+4. Visit your website : http://localhost:2222
