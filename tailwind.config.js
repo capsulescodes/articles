@@ -1,7 +1,7 @@
 export default {
-	content : [ './resources/views/**/*.blade.php', './resources/js/**/*.vue' ],
-    theme : {
-        extend : {
+	content : [ './resources/views/**/*.blade.php', './resources/js/**/*.vue', './vendor/capsulescodes/inertia-mailable/components/js/vue/**/*.vue' ],
+	theme : {
+		extend : {
 			colors : {
 				'primary-white' : '#FCFCFF',
 				'primary-red' :  '#CC2964',
@@ -19,7 +19,7 @@ export default {
 				'100%' : { backgroundPosition : '100% 0%' }
 				},
 			}
-        },
-    },
-    plugins : [],
+		},
+	},
+	plugins : [],
 };

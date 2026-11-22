@@ -1,7 +1,7 @@
 <script setup>
 
-import Layout from '/vendor/capsulescodes/inertia-mailable/components/vue/Layout.vue';
-import Table from '/vendor/capsulescodes/inertia-mailable/components/vue/tags/Table.vue';
+import Layout from '/vendor/capsulescodes/inertia-mailable/components/js/vue/Layout.vue';
+import Table from '/vendor/capsulescodes/inertia-mailable/components/js/vue/tags/Table.vue';
 
 
 const props = defineProps( { name : { type : String, required : true } } );

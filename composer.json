@@ -5,10 +5,10 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
-        "capsulescodes/inertia-mailable": "^1.0",
+        "php": "^8.3",
+        "capsulescodes/inertia-mailable": "^3.0",
         "inertiajs/inertia-laravel": "^1.3",
-        "laravel/framework": "^11.9",
+        "laravel/framework": "^12.0",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
