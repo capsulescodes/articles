@@ -31,7 +31,7 @@ npm install
 
 <br>
 
-2. Add environment
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
