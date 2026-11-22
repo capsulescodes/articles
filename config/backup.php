@@ -25,7 +25,7 @@ return [
 
         'destination' => [
 
-            'filename_prefix' => Str::replace( '.', '-', env( 'NEXTCLOUD_APP_NAME' ) ) . '-',
+            'filename_prefix' => Str::replace( '.', '-', env( 'NEXTCLOUD_APP_NAME', '' ) ) . '-',
 
             'disks' => [ 'nextcloud' ]
         ],

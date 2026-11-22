@@ -29,7 +29,7 @@ composer install
 
 <br>
 
-2. Add environment
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -39,7 +39,17 @@ php artisan key:generate
 
 <br>
 
-3. Retrieve following environment variables
+3. Create database and run migrations
+
+```
+touch database/database.sqlite
+
+php artisan migrate
+```
+
+<br>
+
+4. Retrieve following environment variables
 
 ```
 NEXTCLOUD_URL=
@@ -49,7 +59,7 @@ NEXTCLOUD_PASSWORD=
 
 <br>
 
-4. Run backup command
+5. Run backup command
 
 ```bash
 php artisan backup:run
@@ -57,4 +67,4 @@ php artisan backup:run
 
 <br>
 
-5. Visit Nextcloud home
+6. Visit Nextcloud home
