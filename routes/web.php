@@ -1,12 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 use App\Mail\WelcomeNewUser;
+use Illuminate\Support\Facades\Mail;
 
 
-Route::get( '/', fn() => Inertia::render( 'Welcome' ) );
+Route::get( '/', fn() => ( new WelcomeNewUser() )->render() );
 
-Route::get( '/render', fn() => ( new WelcomeNewUser() )->render() );
-
-Route::get( '/send', function(){ Mail::to( 'yannick@capsules.codes' )->send( new WelcomeNewUser() ); } );
+Route::get( '/send', function(){ Mail::to( 'hello@example.com' )->send( new WelcomeNewUser() ); } );

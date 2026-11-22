@@ -31,7 +31,7 @@ npm install
 
 <br>
 
-2. Add environment and generate key
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -41,20 +41,18 @@ php artisan key:generate
 
 <br>
 
-3. Link your project
+3. Build SSR files
 
 ```bash
-valet link article || herd link article || php artisan serve
+npm run ssr
 ```
 
 <br>
 
-4. Build SSR files
+4. Link your project
 
 ```bash
-npm run build
-
-npm run ssr
+herd link article
 ```
 
 <br>
