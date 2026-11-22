@@ -31,7 +31,7 @@ npm install
 
 <br>
 
-2. Add environment and generate key
+2. Add environment and generate application key
 
 ```bash
 cp .env.example .env
@@ -41,18 +41,18 @@ php artisan key:generate
 
 <br>
 
-3. Link your project
+3. Run development server script
 
 ```bash
-valet link article || herd link article || php artisan serve
+npm run dev
 ```
 
 <br>
 
-4. Run development server script
+4. Link your project
 
 ```bash
-npm run dev
+herd link article
 ```
 
 <br>
